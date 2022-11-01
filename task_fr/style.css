@@ -1,0 +1,154 @@
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    #70cdf1
+  );
+}
+
+.container {
+  padding: 16px;
+  margin-top: 1em;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+input,
+select {
+  width: 75%;
+  padding: 15px;
+  margin: 16px 0 22px 0;
+  margin-left: 12%;
+  display: inline-block;
+  border: none;
+  background: #ffffff;
+  text-align: center;
+  box-shadow: 5px 3px #888888;
+  font-size: 21px;
+}
+
+input:focus {
+  background-color: #ddd;
+}
+
+option {
+  background: #ffffff;
+  text-align: center;
+  box-shadow: 5px 3px #888888;
+  font-size: 21px;
+}
+
+.loginbtn {
+  background-color: #0071bd;
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+  padding: 14px 146px;
+  margin-left: 12% !important;
+  display: block;
+  box-shadow: none;
+  margin: 20px 0;
+  margin-left: 30%;
+  border-radius: 15px;
+
+  opacity: 0.9;
+}
+
+.loginbtn:hover {
+  opacity: 1;
+}
+
+img {
+  position: relative;
+  left: 0px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.addNewCountact {
+  width: 80%;
+  height: 600px;
+  background-color: #70cdf1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 4px;
+  padding: 40px;
+  border: 1px solid #000;
+  z-index: 2;
+  display: none;
+}
+.addNewCountact > i {
+  font-size: 90px;
+}
+.addNewCountact input {
+  width: 90%;
+  margin-top: 10px 20px;
+  color: #888;
+  outline: none;
+  font-size: 18px;
+}
+.addNewCountact .btn {
+  background-color: #70cdf1;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-top: 30px;
+  border: 1px solid #000;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.addNewCountact .close .far {
+  font-size: 25px;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  border: 1px solid #000;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  padding: 3px;
+}
+/* طلب صيانه */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 105%;
+  height: 200px;
+  z-index: 3;
+  background-color: #70cdf1;
+}
+
+td,
+th {
+  border: 1px solid #2f2727;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.sec2 {
+  background-color: #70cdf1;
+  padding: 10px;
+}
+.sec2 input {
+  width: 900px;
+  height: 150px;
+}
+.sec2 h2 {
+  height: 50px;
+}
+.asdBTN:hover {
+  transform: scale(1.2);
+  background: #005883;
+  transition: 0.5s;
+  cursor: pointer;
+}
+</style>
